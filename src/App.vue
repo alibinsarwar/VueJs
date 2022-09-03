@@ -1,11 +1,10 @@
 <script setup>
 // This starter template is using Vue 3 <script setup> SFCs
 // Check out https://vuejs.org/api/sfc-script-setup.html#script-setup
-import New from './components/new.vue'
+import HelloWorld from './components/HelloWorld.vue'
 </script>
 
 <template>
-  
   <div>
     <a href="https://vitejs.dev" target="_blank">
       <img src="/vite.svg" class="logo" alt="Vite logo" />
@@ -14,9 +13,7 @@ import New from './components/new.vue'
       <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
     </a>
   </div>
-  <New msg="First component" />
-  <New msg="Second component" />
-  
+  <HelloWorld msg="Vite + Vue" />
 </template>
 
 <style scoped>
